@@ -1,0 +1,82 @@
+[
+    [
+        {
+            "name" : "การแข่งขันหุ่นยนต์อัตโนมัติชิงแชมป์ประเทศไทย",
+            "awards" : [
+                {
+                    "place" : "2 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ (มัธยมตอนต้น)"
+                },
+                {
+                    "place" : "4 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ (ประถมศึกษา)"
+                },
+                {
+                    "place" : "2 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ (ประถมศึกษา)"
+                },
+                {
+                    "place" : "2 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ (รุ่นไม่เกิน18ปี)"
+                }
+            ],
+            "month" : "december"
+        }
+    ],
+    [
+        {
+            "name" : "Supreme Complex robotics2017",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "Rescue line(open)"
+                },
+                {
+                    "place" : "2 runner up",
+                    "class" : "Rescue line(open)"
+                }
+            ],
+            "month" : "october"
+        },
+        {
+            "name" : "Robocup Asia-Paciffic2017",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "RCJ Rescue line"
+                },
+                {
+                    "place" : "2 runner up",
+                    "class" : "RCJ Rescue line"
+                }
+            ],
+            "month" : "october"
+        },
+        {
+            "name" : "การแข่งขันหุ่นยนต์อัตโนมัติชิงแชมป์ประเทศไทย",
+            "awards" : [
+                {
+                    "place" : "3 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ (รุ่นไม่เกิน12ปี)"
+                },
+                {
+                    "place" : "Champion",
+                    "class" : "หุ่นยนต์อัตโนมัติ(รุ่นไม่เกิน18ปี)"
+                },
+                {
+                    "place" : "2 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ(รุ่นไม่เกิน18ปี)"
+                },
+                {
+                    "place" : "3 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ(รุ่นไม่เกิน18ปี)"
+                },
+                {
+                    "place" : "3 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ (มัธยมศึกษา)"
+                }
+            ],
+            "month" : "october"
+        }
+    ]
+]

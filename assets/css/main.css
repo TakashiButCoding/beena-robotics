@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f5f5f5;
+}
+.box {
+  @apply p-4 bg-white shadow-xl rounded-3xl
+}

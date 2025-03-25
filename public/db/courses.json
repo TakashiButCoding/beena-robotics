@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "age": [1,4],
+        "name" : "Introduction to Lego Mindstorms",
+        "description": "This course is designed to introduce students to the world of robotics using Lego Mindstorms. Students will learn the basics of robotics and programming using the Lego Mindstorms EV3 kit. They will learn how to build and program robots to perform various tasks.",
+        "imgPath" : "/course/images/id1.jpg"
+    },
+    {
+        "id": 2,
+        "age": [4,6],
+        "name" : "Intermediate Lego Mindstorms",
+        "description": "This course is designed for students who have completed the Introduction to Lego Mindstorms course. Students will learn more advanced programming concepts and build more complex robots. They will learn how to program robots to perform more complex tasks.",
+        "imgPath" : "/course/images/id1.jpg"
+    },{
+        "id": 3,
+        "age": [4,15],
+        "name" : "Intermediate Lego Mindstorms",
+        "description": "This course is designed for students who have completed the Introduction to Lego Mindstorms course. Students will learn more advanced programming concepts and build more complex robots. They will learn how to program robots to perform more complex tasks."
+    }
+]
