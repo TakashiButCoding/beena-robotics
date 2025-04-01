@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Title name="ABOUT US" imgLink="aboutus.jpg" />
+        <Title name="ABOUT US" :imgLink="`${useRuntimeConfig().app.baseURL}aboutus.jpg`" />
         <div>
             
         </div>
