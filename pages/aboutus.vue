@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Title name="ABOUT US" imgLink="/beena-robotics/aboutus.jpg"/>
+        <Title name="ABOUT US" imgLink="/aboutus.jpg" />
         <div>
             
         </div>
