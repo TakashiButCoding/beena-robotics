@@ -3,28 +3,33 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
+
+env:
+  NODE_VERSION: 18
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
 
-      - name: Install Node.js
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: ${{ env.NODE_VERSION }}
 
-      - name: Install dependencies
-        run: npm install
+      - name: Clean install
+        run: rm -rf node_modules package-lock.json && npm install
 
-      - name: Build the project
+      - name: Generate Static Site
         run: npm run generate
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          publish_branch: gh-pages
+          cname: your-custom-domain.com # (Optional, remove if not using a custom domain)
