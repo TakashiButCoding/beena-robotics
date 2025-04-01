@@ -20,10 +20,14 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: Setup Git config
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Clean npm cache
+        run: npm cache clean --force
+
+      - name: Remove `node_modules` and `package-lock.json`
+        run: rm -rf node_modules package-lock.json
+
+      - name: Set Rollup Environment Variable
+        run: echo "ROLLUP_WASM=false" >> $GITHUB_ENV
 
       - name: Install dependencies
         run: npm install
@@ -37,4 +41,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           publish_branch: gh-pages
-          force_orphan: true  # Prevents history conflicts
+          force_orphan: true
