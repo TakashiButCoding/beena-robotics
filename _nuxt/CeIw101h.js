@@ -1,0 +1,1 @@
+import{_ as e}from"./GcM7EzPT.js";import{c as o,b as r,o as s}from"./0HqyThuF.js";const m={__name:"courses",setup(a){return(c,t)=>(s(),o("div",null,[r(e,{name:"COURSES",imgLink:"courses.jpg"})]))}};export{m as default};
