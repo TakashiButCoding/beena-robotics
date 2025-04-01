@@ -20,4 +20,7 @@ export default defineNuxtConfig({
   //   transpile: ['@iconify/vue'],
   // },
   ssr: false, // Disable SSR for a purely static site
+  router: {
+    base: '/beena-robotics/',  // Set the base path to match your GitHub Pages URL
+  },
 })
