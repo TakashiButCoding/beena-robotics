@@ -2,7 +2,7 @@ name: Deploy Nuxt site to Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]  # Ensure this matches your default branch
   workflow_dispatch:
 
 permissions:
@@ -51,9 +51,9 @@ jobs:
       - name: Build Nuxt App
         run: npm run generate
 
-      # Deploy to GitHub Pages
+      # Deploy to GitHub Pages using a Personal Access Token (PAT) if needed
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_PAGES_TOKEN }}  # Use your personal access token if necessary
           publish_dir: ./dist
