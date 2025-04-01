@@ -1,23 +1,22 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: '/beena-robotics/',
     head: {
-      title: 'Beena Robotics', 
+      title: 'Beena Robotics',
       charset: 'utf-8',
-    }
+    },
+    router: {
+      base: '/beena-robotics/',  // Set the base path correctly here
+    },
   },
-  compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  ssr: false,  // Disable SSR if you're using static site generation
+  build: {
+    publicPath: '/beena-robotics/_nuxt/',  // Ensure that the assets are correctly referenced
+  },
+  css: ['~/assets/css/main.css'],  // Include your CSS
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-  // build: {
-  //   transpile: ['@iconify/vue'],
-  // },
-  ssr: false, // Disable SSR for a purely static site
 })
