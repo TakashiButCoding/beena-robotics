@@ -1,1 +1,0 @@
-import{_ as a}from"./GcM7EzPT.js";import{c as o,b as t,a as s,o as n}from"./0HqyThuF.js";const _={__name:"aboutus",setup(r){return(u,e)=>(n(),o("div",null,[t(a,{name:"ABOUT US",imgLink:"aboutus.jpg"}),e[0]||(e[0]=s("div",null,null,-1))]))}};export{_ as default};

@@ -1,0 +1,1 @@
+import{c as a,b as s,u,a as o,o as i,m as t}from"./6QfwW1Pp.js";import{_ as m}from"./n10gtgbR.js";const f={__name:"aboutus",setup(r){return(e,n)=>(i(),a("div",null,[s(m,{name:"ABOUT US",imgLink:`${("useRuntimeConfig"in e?e.useRuntimeConfig:u(t))().app.baseURL}aboutus.jpg`},null,8,["imgLink"]),n[0]||(n[0]=o("div",null,null,-1))]))}};export{f as default};
