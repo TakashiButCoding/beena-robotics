@@ -1,29 +1,59 @@
 [
     [
         {
-            "name" : "การแข่งขันหุ่นยนต์อัตโนมัติชิงแชมป์ประเทศไทย",
+            "name" : "WRO World Robot Olympiad 2016 (Central Region)",
             "awards" : [
                 {
-                    "place" : "2 runner up",
-                    "class" : "หุ่นยนต์อัตโนมัติ (มัธยมตอนต้น)"
+                    "place" : "Champion",
+                    "class" : "REGULAR CATEGORY (ELEMENTARY)"
+                }
+            ],
+            "month" : "august"
+        },
+        {
+            "name" : "Chaiyaphum Robot Contest 2016",
+            "awards" : [
+                {
+                    "place" : "1 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ (ระดับประถมศึกษา)"
                 },
                 {
                     "place" : "4 runner up",
-                    "class" : "หุ่นยนต์อัตโนมัติ (ประถมศึกษา)"
+                    "class" : "หุ่นยนต์อัตโนมัติ (ระดับประถมศึกษา)"
                 },
                 {
-                    "place" : "2 runner up",
-                    "class" : "หุ่นยนต์อัตโนมัติ (ประถมศึกษา)"
-                },
-                {
-                    "place" : "2 runner up",
-                    "class" : "หุ่นยนต์อัตโนมัติ (รุ่นไม่เกิน18ปี)"
+                    "place" : "1 runner up",
+                    "class" : "หุ่นยนต์อัตโนมัติ (ระดับมัธยมศึกษา)"
                 }
             ],
             "month" : "december"
         }
     ],
     [
+        {
+            "name" : "การแข่งขันหุ่นยนต์อัตโนมัติชิงแชมป์ประเทศไทย",
+            "awards" : [
+                {
+                    "place" : "3 runner up",
+                    "class" : "ระดับมัธยมศึกษา"
+                }
+            ],
+            "month" : "May"
+        },
+        {
+            "name" : "WRO World Robot Olympiad Thailand 2017 (Central Region)",
+            "awards" : [
+                {
+                    "place" : "2 runner up",
+                    "class" : "REGULAR CATEGORY JUNIOR"
+                },
+                {
+                    "place" : "2 runner up",
+                    "class" : "REGULAR CATEGORY SENIOR"
+                }
+            ],
+            "month" : "august"
+        },
         {
             "name" : "Supreme Complex robotics2017",
             "awards" : [
@@ -39,6 +69,28 @@
             "month" : "october"
         },
         {
+            "name" : "Chaiyaphum Robot Contest 2017",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "ไม่เกิน 18 ปี"
+                },
+                {
+                    "place" : "1 runner up",
+                    "class" : "ไม่เกิน 18 ปี"
+                },
+                {
+                    "place" : "2 runner up",
+                    "class" : "ไม่เกิน 18 ปี"
+                },
+                {
+                    "place" : "1 runner up",
+                    "class" : "ไม่เกิน 12 ปี"
+                }
+            ],
+            "month" : "november"
+        },
+        {
             "name" : "Robocup Asia-Paciffic2017",
             "awards" : [
                 {
@@ -50,30 +102,182 @@
                     "class" : "RCJ Rescue line"
                 }
             ],
-            "month" : "october"
-        },
+            "month" : "december"
+        }
+        
+    ],
+    [   
         {
-            "name" : "การแข่งขันหุ่นยนต์อัตโนมัติชิงแชมป์ประเทศไทย",
+            "name" : "การแข่งขันหุ่นยนต์ RMUTP ROBOCON 2018 ครั้งที่ 3",
             "awards" : [
                 {
+                    "place" : "1 runner up",
+                    "class" : "Rescue line"
+                }
+            ],
+            "month" : "january"
+        },
+        {
+            "name" : "WRO World Robot Olympiad Thailand 2018 (Central Region)",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "REGULAR CATEGORY ELEMENTARY"
+                },
+                {
+                    "place" : "1 runner up",
+                    "class" : "REGULAR CATEGORY SENIOR"
+                }
+            ],
+            "month" : "july"
+        },
+        {
+            "name" : "WRO World Robot Olympiad Thailand 2018",
+            "awards" : [
+                {
+                    "place" : "2 runner up",
+                    "class" : "REGULAR CATEGORY JUNIOR"
+                },
+                {
                     "place" : "3 runner up",
-                    "class" : "หุ่นยนต์อัตโนมัติ (รุ่นไม่เกิน12ปี)"
+                    "class" : "REGULAR CATEGORY JUNIOR"
+                }
+            ],
+            "month" : "august"
+        }
+        
+    ],
+    [
+        {
+            "name" : "WRO World Robot Olympiad Thailand 2019 (Central Region)",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "REGULAR CATEGORY JUNIOR"
                 },
                 {
                     "place" : "Champion",
-                    "class" : "หุ่นยนต์อัตโนมัติ(รุ่นไม่เกิน18ปี)"
+                    "class" : "REGULAR CATEGORY SENIOR"
+                },
+                {
+                    "place" : "1 runner up",
+                    "class" : "REGULAR CATEGORY ELEMENTARY"
+                }
+                ,
+                {
+                    "place" : "1 runner up",
+                    "class" : "REGULAR CATEGORY JUNIOR"
+                }
+            ],
+            "month" : "july"
+        },
+        {
+            "name" : "ALL THAILAND FSI & WORLD SUMO TOURNAMENT 2019",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "LEGO SUMO OPEN (AUTO)"
+                }
+            ],
+            "month" : "september"
+        }
+    ],
+    [
+
+    ],
+    [
+        {
+            "name" : "WRO World Robot Olympiad 2021 (Central Region)",
+            "awards" : [
+                {
+                    "place" : "2 runner up",
+                    "class" : "REGULAR CATEGORY JUNIOR"
+                }
+            ],
+            "month" : "october"
+        }
+    ],
+    [
+        {
+            "name" : "Maker Robotics Challenge 2022",
+            "awards" : [
+                {
+                    "place" : "3 runner up",
+                    "class" : "SUMO"
+                },
+                {
+                    "place" : "4 runner up",
+                    "class" : "SUMO"
+                }
+            ],
+            "month" : "august"
+        }
+    ],
+    [
+        {
+            "name" : "WRO World Robot Olympiad 2023",
+            "awards" : [
+                {
+                    "place" : "3 runner up",
+                    "class" : "FUTURE INNOVATORS CATEGORY"
+                },
+                {
+                    "place" : "1 runner up",
+                    "class" : "REGULAR CATEGORY ELEMENTARY"
+                }
+            ],
+            "month" : "august"
+        },
+        {
+            "name" : "Maker Robotic Charity",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "???"
                 },
                 {
                     "place" : "2 runner up",
-                    "class" : "หุ่นยนต์อัตโนมัติ(รุ่นไม่เกิน18ปี)"
+                    "class" : "???"
                 },
                 {
-                    "place" : "3 runner up",
-                    "class" : "หุ่นยนต์อัตโนมัติ(รุ่นไม่เกิน18ปี)"
+                    "place" : "2 runner up",
+                    "class" : "???"
+                }
+            ],
+            "month" : "december"
+        }
+    ],
+    [
+        {
+            "name" : "Maker Robotics Challenge 2024",
+            "awards" : [
+                {
+                    "place" : "2 runner up",
+                    "class" : "???"
                 },
                 {
-                    "place" : "3 runner up",
-                    "class" : "หุ่นยนต์อัตโนมัติ (มัธยมศึกษา)"
+                    "place" : "2 runner up",
+                    "class" : "???"
+                }
+            ],
+            "month" : "???"
+        },
+        {
+            "name" : "WRG 2024",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "Incredible Machine Robot"
+                }
+            ],
+            "month" : "august"
+        },
+        {
+            "name" : "LEGO ROBOT BATTLE",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "รางวัลหุ่นยนต์ทำลายล้างรุ่นทั่วไป"
                 }
             ],
             "month" : "october"
