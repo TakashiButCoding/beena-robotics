@@ -1,7 +1,7 @@
 <template>
     <div>
         <Title name="COACH" imgLink="coach.jpg" />
-        <div class="flex justify-center items-center p-10">
+        <div class="flex justify-center items-center p-10 flex-wrap">
             <div v-for="list in coachData">
                 <div class="mx-4 rounded-3xl overflow-hidden shadow-xl my-41">
                     <div class=" h-[400px] w-[300px]">
