@@ -4,6 +4,7 @@
     <intro/>
     <CourseFilter/>
     <Feedback/>
+    <Analytics />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ definePageMeta({
   layout: 'default'
 });
 
+import { Analytics } from '@vercel/analytics/nuxt'
 import Carousel from '~/components/Carousel.vue';
 import Intro from '~/components/Intro.vue';
 import CourseFilter from '~/components/CourseFilter.vue';
