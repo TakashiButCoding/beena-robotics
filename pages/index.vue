@@ -21,5 +21,12 @@ const imageList = [
   { src: '/carousel/image2.png', alt: 'Image 2' },
 ];
 
+useHead({
+  title: "Your Company - Best Robotics Solutions",
+  meta: [
+    { name: "description", content: "The best robotics institude in Thailand" },
+    { name: "keywords", content: "robotics,lego mindstorms,vex,vex iq,arduino " }
+  ]
+});
 
 </script>

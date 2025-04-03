@@ -33,7 +33,7 @@
             
         </div>
         <div class="flex flex-col lg:hidden divide-y divide-gray-300 px-4 py-1 bg-white text-white w-screen absolute transition-all duration-500 ease-in-out z-10 shadow-md"
-        :class="burger ? '-top-60' : 'top-14'"
+        :class="burger ? '-top-60 opacity-0' : 'top-14'"
         >   
             <NuxtLink to="/">
                 <button
