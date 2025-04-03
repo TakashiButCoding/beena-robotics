@@ -22,4 +22,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-04-02',
 
   modules: ['@nuxtjs/sitemap'],
+  sitemap: {
+    hostname: "https://www.beenarobotics.com",
+  }
 })

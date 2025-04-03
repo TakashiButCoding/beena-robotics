@@ -24,12 +24,28 @@ const imageList = [
 ];
 
 useHead({
-  title: "Best Robotics Solutions",
+  title: "Beena Robotics | Best Robotics Institute in Thailand",
   meta: [
-    { name: "google-site-verification", content:"jiTrGyIUrEdU5OAZGpY2uwogo6FVzQarEtTOWh6zKA0"},
-    { name: "description", content: "The best robotics institude in Thailand" },
-    { name: "keywords", content: "beenarobotics,beena robotics,robotics,lego mindstorms,vex,vex iq,arduino " }
-  ]
+    { name: "google-site-verification", content: "jiTrGyIUrEdU5OAZGpY2uwogo6FVzQarEtTOWh6zKA0" },
+    { name: "description", content: "Beena Robotics is Thailand's best robotics institute, offering courses on LEGO Mindstorms, VEX IQ, and Arduino." },
+    { name: "keywords", content: "Beena Robotics, robotics courses, LEGO Mindstorms, VEX IQ, Arduino, STEM education Thailand" },
+    { name: "robots", content: "index, follow" }, // Ensures Google indexes your site
+
+    // Open Graph (Facebook, LinkedIn)
+    { property: "og:title", content: "Beena Robotics | Best Robotics Institute in Thailand" },
+    { property: "og:description", content: "Learn robotics with LEGO Mindstorms, VEX IQ, and Arduino at Beena Robotics." },
+    { property: "og:image", content: "https://www.beenarobotics.com/og-image.jpg" }, // Change to your actual image
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://www.beenarobotics.com" },
+
+    // Twitter Card (for better Twitter sharing)
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Beena Robotics | Best Robotics Institute in Thailand" },
+    { name: "twitter:description", content: "Join Beena Robotics for hands-on training in LEGO Mindstorms, VEX IQ, and Arduino." },
+    { name: "twitter:image", content: "https://www.beenarobotics.com/og-image.jpg" }
+  ],
+  link: [{ rel: "canonical", href: "https://www.beenarobotics.com" }] // Helps with SEO rankings
 });
+
 
 </script>
