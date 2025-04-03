@@ -5,7 +5,7 @@ export default defineNuxtConfig({
       charset: 'utf-8',
     },
   },
-
+  
   // Disable SSR if you're using static site generation
   ssr: false,
 
@@ -20,4 +20,16 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2025-04-02',
+
+  modules: ['@nuxtjs/sitemap'],
+  sitemap: {
+    hostname: 'https://www.beena-robotics.com',
+    gzip: true,
+    routes: [
+      '/', 
+      '/about', 
+      '/services', 
+      '/contact'
+    ],
+  },
 })
