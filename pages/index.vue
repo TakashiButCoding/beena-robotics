@@ -24,6 +24,7 @@ const imageList = [
 useHead({
   title: "Your Company - Best Robotics Solutions",
   meta: [
+    { name: "google-site-verification", content:"jiTrGyIUrEdU5OAZGpY2uwogo6FVzQarEtTOWh6zKA0"},
     { name: "description", content: "The best robotics institude in Thailand" },
     { name: "keywords", content: "robotics,lego mindstorms,vex,vex iq,arduino " }
   ]
