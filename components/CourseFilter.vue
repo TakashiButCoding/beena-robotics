@@ -1,11 +1,11 @@
 <template>
     <div class="py-8 bg-white">
-        <p class="text-center font-bold text-4xl p-2 text-secondary">COURSES</p>
+        <p class="text-center font-bold f1 p-2 text-secondary">COURSES</p>
         <p class="text-center mt-2">โปรดเลือกช่วงอายุ</p>
-        <div class="flex justify-center items-center gap-4 p-4 flex-wrap">
+        <div class="flex justify-center items-center gap-2 md:gap-4 p-2 md:p-4 flex-wrap">
             <button 
                 @click="selectAgeIndex = -1"
-                class="w-20 h-10 rounded-lg shadow-xl font-semibold hover:scale-110 duration-200 transition-all"
+                class="w-16 md:w-20 h-8 md:h-10 f2 rounded-lg shadow-md  hover:scale-110 duration-200 transition-all"
                 :class="selectAgeIndex === -1 ? 'bg-primary text-white' : 'bg-gray-100'"
             >
                 All
@@ -13,14 +13,14 @@
             <div v-for="(age, index) in ageList" :key="index">
                 <button 
                     @click="selectAgeIndex = index " 
-                    class="w-20 h-10 rounded-lg shadow-xl font-semiboldhover:scale-110 duration-200 transition-all "
+                    class="w-16 md:w-20 h-8 md:h-10 f2 rounded-lg shadow-md  hover:scale-110 duration-200 transition-all "
                     :class="selectAgeIndex === index  ? 'bg-primary text-white' : 'bg-gray-100'"
                 >
                     {{ age }}
                 </button>
             </div>
         </div>
-        <div v-if="filteredCourses.length != 0" class="relative max-w-5xl overflow-hidden mx-auto">
+        <!-- <div v-if="filteredCourses.length != 0" class="relative max-w-5xl overflow-hidden mx-auto">
             <div class="flex transition-transform duration-500" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
                 <div v-for="(image, index) in filteredCourses" :key="index" class="flex-none w-full">
                     <img :src="image.imgPath" :alt="image.alt" class="w-full h-auto" />
@@ -43,6 +43,9 @@
                     รายระเอียดเพิ่มเติม
                 </button>
             </NuxtLink>
+        </div> -->
+        <div class="flex items-center justify-center p-10">
+            coming soon ...
         </div>
     </div>
     

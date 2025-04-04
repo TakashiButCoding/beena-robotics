@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <Title name="COURSES" imgLink="courses.jpg" />
+    <div class="h-screen flex items-center justify-center">
+        coming soon
+        <!-- <Title name="COURSES" imgLink="courses.jpg" /> -->
     </div>
 </template>
 <script setup>

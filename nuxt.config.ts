@@ -21,8 +21,28 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-04-02',
 
-  modules: ['@nuxtjs/sitemap'],
+  modules: ['@nuxtjs/sitemap','@vueuse/motion/nuxt'],
   sitemap: {
     hostname: "https://www.beenarobotics.com",
+  },
+  runtimeConfig: {
+    public: {
+      motion: {
+        directives: {
+          'pop-bottom': {
+            initial: {
+              scale: 0,
+              opacity: 0,
+              y: 100,
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+              y: 0,
+            }
+          }
+        }
+      }
+    }
   }
 })

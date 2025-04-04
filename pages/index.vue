@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div> 
     <Carousel :images="imageList" />
     <intro/>
     <CourseFilter/>
@@ -28,7 +28,7 @@ useHead({
   meta: [
     { name: "google-site-verification", content: "jiTrGyIUrEdU5OAZGpY2uwogo6FVzQarEtTOWh6zKA0" },
     { name: "description", content: "Beena Robotics is Thailand's best robotics institute, offering courses on LEGO Mindstorms, VEX IQ, and Arduino." },
-    { name: "keywords", content: "Beena Robotics, robotics courses, LEGO Mindstorms, VEX IQ, Arduino, STEM education Thailand" },
+    { name: "keywords", content: "beena robotics,Beena Robotics, robotics courses, LEGO Mindstorms, VEX IQ, Arduino, STEM education Thailand" },
     { name: "robots", content: "index, follow" }, // Ensures Google indexes your site
 
     // Open Graph (Facebook, LinkedIn)
