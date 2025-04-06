@@ -4,7 +4,7 @@
     <intro/>
     <CourseFilter/>
     <Feedback/>
-    <!-- <Analytics /> -->
+    <Analytics />
   </div>
 </template>
 
