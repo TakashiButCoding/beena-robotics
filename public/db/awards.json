@@ -263,7 +263,7 @@
             "month" : "???"
         },
         {
-            "name" : "WRG 2024",
+            "name" : "WRG Thailand 2024",
             "awards" : [
                 {
                     "place" : "Champion",
@@ -281,6 +281,16 @@
                 }
             ],
             "month" : "october"
+        },
+        {
+            "name" : "WRG 2024",
+            "awards" : [
+                {
+                    "place" : "Champion",
+                    "class" : "Incredible Machine Robot"
+                }
+            ],
+            "month" : "november"
         }
     ]
 ]

@@ -3,7 +3,11 @@ export default defineNuxtConfig({
     head: {
       title: 'Beena Robotics',
       charset: 'utf-8',
+        link: [
+        { rel: 'icon', type: 'image/png', href: '/logo/icon.png' }
+      ]
     },
+    
   },
   
   // Disable SSR if you're using static site generation
@@ -24,6 +28,14 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/sitemap','@vueuse/motion/nuxt'],
   sitemap: {
     hostname: "https://www.beenarobotics.com",
+    gzip: true,
+    routes: [
+      '/',
+      '/aboutus',
+      '/awards',
+      '/contactus',
+      '/courses'
+    ]
   },
   runtimeConfig: {
     public: {

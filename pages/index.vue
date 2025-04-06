@@ -4,7 +4,7 @@
     <intro/>
     <CourseFilter/>
     <Feedback/>
-    <Analytics />
+    <!-- <Analytics /> -->
   </div>
 </template>
 
@@ -21,6 +21,7 @@ import Feedback from '~/components/Feedback.vue';
 const imageList = [
   { src: '/carousel/image1.png', alt: 'Image 1' },
   { src: '/carousel/image2.png', alt: 'Image 2' },
+  { src: '/carousel/image3.png', alt: 'Image 3' },
 ];
 
 useHead({
