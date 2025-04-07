@@ -2,6 +2,10 @@
   <div> 
     <Carousel :images="imageList" />
     <intro/>
+    
+    <div class="flex justify-center items-center my-10 h-[500px]">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIcate0LY54-1jQChtsnZslvBWxrCZLaF6K-GIpa4z2_n13w/viewform?embedded=true" class="h-full w-full" frameborder="0" marginheight="0" marginwidth="0">กำลังโหลด…</iframe>
+    </div>
     <CourseFilter/>
     <Feedback/>
     <Analytics />

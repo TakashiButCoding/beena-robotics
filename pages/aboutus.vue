@@ -11,7 +11,7 @@
         </div>
         <div v-for="(list,index) in data" class="max-w-7xl mx-auto my-4 px-2">
             <div class="sm:flex bg-white rounded-3xl shadow-lg overflow-hidden sm:h-[240px] lg:h-[400px]">
-                <div class="sm:w-1/2  ">
+                <div class="sm:w-1/2 h-[240px] sm:h-auto">
                     <img :src="`/aboutus/${list.img}`" class="w-full h-full object-cover"/>
                 </div>
                 <div class="sm:w-1/2 p-6 flex flex-col overflow-hidden">

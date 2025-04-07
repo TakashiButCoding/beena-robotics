@@ -32,12 +32,12 @@
             </div>
             
         </div>
-        <div class="flex flex-col lg:hidden divide-y divide-gray-300 px-4 py-1 bg-white text-white w-screen absolute transition-all duration-500 ease-in-out z-10 shadow-md"
+        <div class="flex flex-col lg:hidden divide-y divide-gray-200 px-4 py-1 bg-white text-white w-screen absolute transition-all duration-500 ease-in-out z-10 shadow-md"
         :class="burger ? '-top-60 opacity-0' : 'top-14'"
         >   
             <NuxtLink to="/">
                 <button
-                class="py-2 pl-4 font-semibold w-full  "
+                class="py-2 pl-4 w-full  "
                 :class="currentPath.toLowerCase() === 'index' ? 'text-primary ' : 'text-secondary '"
                 >
                     Home
@@ -46,7 +46,7 @@
             <div v-for="name,index in buttonList" :key="name">
                 <NuxtLink :to="path[index]">
                     <button
-                    class="py-2 pl-4 font-semibold w-full  "
+                    class="py-2 pl-4 w-full  "
                     :class="currentPath.toLowerCase() === name.replace(/ /g, '').toLowerCase() ? 'text-primary ' : 'text-secondary '"
                     >
                         {{ name }}
