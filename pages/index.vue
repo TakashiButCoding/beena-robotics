@@ -2,8 +2,10 @@
   <div> 
     <Carousel :images="imageList" />
     <intro/>
-    
-    <div class="flex justify-center items-center my-10 h-[500px]">
+    <div>
+      <img src="/banner/freetest.png" class=" max-w-2xl rounded-3xl overflow-hidden mx-auto h-auto object-cover mb-4"/>
+    </div>
+    <div class="flex justify-center items-center h-[500px] max-w-2xl mx-auto mb-4">
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf25jUyr-at_VaTHd_2EPCVD5BLm95WaCqqTo-YojrzW8Zw6g/viewform?embedded=true"  class="h-full w-full" frameborder="0" marginheight="0" marginwidth="0">กำลังโหลด…</iframe>
     </div>
     <CourseFilter/>

@@ -1,23 +1,28 @@
 <template>
     <div>
-        <Title name="CONTACT US" imgLink="contactus.jpg" />
-        <div class="max-w-5xl mx-auto p-4 flex-wrap justify-between gap-6">
-            <div v-for="contact in contactList" :key="contact.name">
-                <a :href="contact.link" target="_blank" :aria-label="`Visit our ${contact.name}`">
-                    <div class="relative my-6 bg-white text-secondary text-xl font-semibold shadow-lg rounded-full h-12 md:h-16 flex items-center">
-                        <p class="ml-24">
+        <!-- <Title name="CONTACT US" imgLink="contactus.jpg" /> -->
+        <div class=" mx-auto sm:flex">
+            <span class="f0 sm:w-2/5 bg-primary flex items-center justify-center sm:justify-end text-white font-bold px-10 py-10">
+                CONTACT US
+            </span> 
+            <div class="flex-wrap  sm:justify-between gap-6 sm:w-3/5 px-4 sm:py-20">
+                <div v-for="contact in contactList" :key="contact.name" class="hover:scale-[1.01] transition-all duration-200">
+                    <div @click="goToLink(contact.link)" class="relative my-6 bg-white text-secondary text-xl font-semibold shadow-lg rounded-full h-12 sm:h-16 flex items-center sm:max-w-lg">
+                        <p class="ml-24 f2">
                             {{ contact.title }}
                         </p>
                         <div
-                            class="absolute rounded-full h-16 w-16 md:h-20 md:w-20 p-2"
+                            class="absolute rounded-full h-16 w-16 sm:h-20 sm:w-20 p-2"
                             :style="{ backgroundColor: contact.color }"
                         >
                             <Icon :icon="contact.icon" class="w-full h-full" style="color: #fff" />
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
+            
         </div>
+       
 
         <iframe
             class="max-w-desktop w-full"
@@ -56,6 +61,24 @@ const contactList = [
         color: '#FF0000',
         title: 'Beena Robotics',
         icon: 'line-md:youtube',
-    },
+    },{
+        name: 'Email',
+        link: 'mailto:Beena.robotics@gmail.com',
+        color: '#ff5b2e',
+        title: 'Beena.robotics@gmail.com',
+        icon: 'material-symbols:mail'
+    },{
+        name: 'Phone',
+        link: '',
+        color: '#2ec4ff',
+        title: '087 049 8760',
+        icon: 'ic:baseline-phone'
+    }
 ];
+
+const goToLink = (val) => {
+    if (val != '') {
+        window.open(val, '_blank'); // Opens in new tab
+    }
+}
 </script>
