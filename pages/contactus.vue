@@ -2,11 +2,19 @@
     <div>
         <!-- <Title name="CONTACT US" imgLink="contactus.jpg" /> -->
         <div class=" mx-auto sm:flex">
-            <span class="f0 sm:w-2/5 bg-primary flex items-center justify-center sm:justify-end text-white font-bold px-10 py-10">
-                CONTACT US
-            </span> 
+            <span class="f0 sm:w-2/5 group bg-primary flex items-center justify-center sm:justify-end text-white font-bold px-10 py-10">
+                <div>
+                    <div class="text-end">
+                    CONTACT US
+                    </div>
+                    <div class="text-end f3 overflow-hidden transition-all duration-1000 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100">
+                    Let's keep in touch!
+                    </div>
+                </div>
+            </span>
+
             <div class="flex-wrap  sm:justify-between gap-6 sm:w-3/5 px-4 sm:py-20">
-                <div v-for="contact in contactList" :key="contact.name" class="hover:scale-[1.01] transition-all duration-200">
+                <div v-for="contact in contactList" :key="contact.name" class=" hover:scale-[1.01] transition-all duration-200">
                     <div @click="goToLink(contact.link)" class="relative my-6 bg-white text-secondary text-xl font-semibold shadow-lg rounded-full h-12 sm:h-16 flex items-center sm:max-w-lg">
                         <p class="ml-24 f2">
                             {{ contact.title }}

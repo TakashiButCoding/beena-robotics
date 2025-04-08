@@ -9,7 +9,7 @@ body {
   font-family: 'Noto Sans Thai', sans-serif;
 }
 .box {
-  @apply p-4 lg:p-10 bg-white shadow-md md:shadow-xl rounded-xl md:rounded-3xl 
+  @apply p-4 lg:p-10 bg-white shadow-md md:shadow-xl rounded-xl md:rounded-3xl  
 }
 .f0{
   @apply text-lg md:text-2xl lg:text-4xl 
